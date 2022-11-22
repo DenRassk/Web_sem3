@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<script languge ="JavaScript">
+
+	function myName(text) {
+		const name = prompt('Как Вас зовут?','имя');
+		if (name == 'имя') {
+			return myName();
+		} else if (name ==null) {
+			return myName();
+		} else if (name =='') {
+			return myName();
+		} else {
+			return ('Ваше имя:  ' + name);
+		}
+	}
+	alert (myName());
+	</script>
+</body>
+</html>
